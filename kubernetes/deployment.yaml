@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: tic-tac-toe
-        image: ${imagename}:${imagetag}
+        image: vamsee30/vamsee24:14
         # Image will be automatically updated by CI/CD pipeline
         imagePullPolicy: Always
         ports:
